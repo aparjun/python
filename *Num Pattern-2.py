@@ -1,5 +1,4 @@
 n=int(input())
-li=[]
 for i in range(n):
 	for j in range(n):
 		if(j%2==0):
