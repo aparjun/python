@@ -32,4 +32,6 @@ print(f,end="")
 print(se,end="")
 print(th,end="")
 print(num)
+//Input Example: Arjun
+//               19382
     
