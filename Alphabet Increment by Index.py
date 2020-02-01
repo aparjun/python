@@ -5,7 +5,10 @@ for i in li:
 		ch=chr(ord(i[j])+n-j-1)
 		if(ch>'z'):
 			ch=chr(ord('a')+ord(ch)-ord('z')-1)
+		elif(ch>'Z'):
+			ch=chr(ord('A')+ord(ch)-ord('Z')-1)
 		print(ch,end="")
 	print(end=" ")	
+	
 //input= yum feed 
-//output=avm igfd
+//output= avm igfd
