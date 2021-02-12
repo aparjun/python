@@ -1,0 +1,5 @@
+dir() function: 
+print (dir()) displays all variables declared in current namespace
+
+Library function info: 
+print.__doc__ gives info about print function
