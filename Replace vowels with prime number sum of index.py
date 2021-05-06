@@ -25,7 +25,7 @@ for i in range(len(s)):
 	if s[i] in ['a','e','i','o','u','A','E','I','O','U']:
 		num=i*100
 		primesum=0
-		for j in range(1,num):
+		for j in range(2,num):
 			if prime(j):
 				primesum+=j
 		while(len(str(primesum))>1):
