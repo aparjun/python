@@ -1,3 +1,5 @@
+//Ex: hello ---> h7ll9
+//Logic: If vowel, take index, multiply by hundred, sum of primes between 1 to it, sum of the primesum digits until 1 digit, replace the vowel with it
 def replacer(s, newstring, index):
     if index < 0:  # add it to the beginning
         return newstring + s
