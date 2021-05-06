@@ -1,4 +1,4 @@
-//Minimum Swaps to Symmetric String
+#Minimum Swaps to Symmetric String
 
 # Function to Count minimum swap
 def CountSwap(s, n):
